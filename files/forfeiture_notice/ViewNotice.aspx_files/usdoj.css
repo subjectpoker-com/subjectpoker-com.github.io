@@ -1,0 +1,102 @@
+Body {text-align: left; font-family: Arial, Helvetica, sans-serif}
+TD {font-family: Verdana, Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; font-weight: none}
+TH {font-family: Verdana, Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; font-weight: bold}
+HR {color: #000000}
+H1 {font-family: Verdana, Arial, Helvetica, sans-serif; color: #333333; font-size: 12px; font-weight: Bold}
+
+.header {font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFFF; font-size: 14px; text-decoration:none; font-weight: bold}
+.header2 {font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size: 14px; text-decoration:none; font-weight: bold}
+.header3 {font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size: 14px; text-decoration:none; font-weight: normal}
+.footer {font-family: Verdana, Arial, Helvetica, sans-serif; color: #666666; font-size: 11px; text-decoration:none; font-weight: bold}
+.doubleSpaced li { margin-bottom: 1em; } 
+.singleSpaced li { margin-bottom: 0px; } 
+.noBullet { list-style-type: none; }
+A:link {color: #003366; text-decoration: underline}
+A:visited {color: #660066; text-decoration: underline}
+A:active {color: #003366; text-decoration: underline}
+A:hover {color: #660066}
+
+div#content_skip {
+	position: absolute;
+	left: -1000px;
+}
+
+/* Style for the lefthand navigation */
+	ul#leftHandNavigation {
+		text-transform: none;
+		list-style-type: none;
+		margin-left: 1px;
+		margin-top: 0px;
+		margin-bottom: -1px;
+		padding-bottom: -1px;
+		width: 219px;
+		border-style: solid;
+		border-color: #aaa;
+		border-width: 0px 1px;
+		padding-left: 0px;
+	}
+	html[xmlns] ul#leftHandNavigation { left: -37px; margin-left: 0px; width: 218px;}
+	#leftHandNavigation a { color: #444; }
+	ul#leftHandNavigation li {
+		line-height: 21px;
+		margin-bottom: 1px;
+	}
+	ul#leftHandNavigation li ul {
+		margin-top: 2px;
+	}
+	li.navLevel1 a {
+		font-family: verdana, arial, sans-serif;
+		font-size: 8pt;
+		text-decoration: none;
+		position: relative;
+		width: 200px;
+		line-height: 11px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		padding-left: 18px;
+		display: block;
+		font-weight: 900;
+	}
+	
+	li.navLevel2 {
+		font-family: arial, sans-serif;
+		text-transform: none;
+		position: relative;
+		display: none;
+	}
+	li.navLevel2 a {
+		font-size: 8pt;
+		font-weight: bold;
+		text-decoration: none;
+		position: relative;
+		padding-left: 20px;
+		width: 200px;
+		line-height: 13px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		display: block;
+		
+	}
+	html[xmlns] ul#leftHandNavigation li.navLevel2 a { width: 200px; }
+	ul#leftHandNavigation a, ul#leftHandNavigation a:visited, ul#leftHandNavigation a:hover, ul#leftHandNavigation a:link, ul#leftHandNavigation a:active, ul#leftHandNavigation a:focus {
+		text-decoration: none;
+	}
+	li.activeNavigation, li.activeNavigation a {
+		display: block;
+	}
+
+	/* Navigation button colors.  The ugly CSS selectors are because IE sucks.  This looks a lot nicer in Mozilla-only code */
+	ul#leftHandNavigation li.nl1-bon-open { background: url('../images/navbutton_open.gif') no-repeat 0px 1.5px #d5dde6;}
+	ul#leftHandNavigation li.nl1-bon-open a { color: #036; }
+	ul#leftHandNavigation li.nl1-bon-none { background-color: #d5dde6; }
+	
+	ul#leftHandNavigation li.nl1-boff-closed { background: url('../images/navbutton_closed.gif') no-repeat 0px 1.5px #eaeaea; }
+	ul#leftHandNavigation li.nl1-boff-closed:hover, ul#leftHandNavigation li.nl1-boff-closed-over { background: url('../images/navbutton_open.gif') no-repeat 0px 1.5px #f7d5d5; }
+	ul#leftHandNavigation li.nl1-boff-none { background: #eaeaea; }
+	ul#leftHandNavigation li.nl1-boff-none:hover, ul#leftHandNavigation li.nl1-boff-none-over { background: #f7d5d5; }
+	
+	ul#leftHandNavigation li.nl2-bon { background-color: #e3e9ee; }
+	ul#leftHandNavigation li.nl2-bon a {  color: #036; }
+	ul#leftHandNavigation li.nl2-boff { background-color: #f1f1f1; }
+	ul#leftHandNavigation li.nl2-boff:hover, ul#leftHandNavigation li.nl2-boff-over { background-color: #f9e3e3; }
+'../images/navbutton_open.gif''../images/navbutton_closed.gif''../images/navbutton_open.gif'
